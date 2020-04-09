@@ -16,6 +16,11 @@
 
     document.onkeypress = function (e) {
         e = e || window.event;
-        playSong(keyMap[e.keyCode]);
+        const keyIndex = keyMap[e.keyCode];        
+        if (isNaN(keyIndex)) {
+            return console.warn(`Key (${e.keyCode}) is not on key map.`);            
+        }
+        
+        playSong(keyIndex);
     };
 })();
