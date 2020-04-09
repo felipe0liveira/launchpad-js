@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #333; }
+  body .launchpad {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+    body .launchpad .pad {
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #f9f9f9; }
+      body .launchpad .pad:nth-child(1) {
+        background-color: #a84c4c; }
+      body .launchpad .pad:nth-child(2) {
+        background-color: #4c52a8; }
+      body .launchpad .pad:nth-child(3) {
+        background-color: #4ca889; }
+      body .launchpad .pad:nth-child(4) {
+        background-color: #a84c9c; }
+      body .launchpad .pad:nth-child(5) {
+        background-color: #9aa84c; }

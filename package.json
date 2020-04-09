@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "light-server -o -q -s ./src -w \"./src/**/*.* # npm run scss\" # clear",
+    "scss": "rm -f ./src/assets/styles/main.css && node-sass ./src/assets/styles/main.scss -o ./src/assets/styles"
+  },
+  "devDependencies": {
+    "light-server": "^2.6.4",
+    "node-sass": "^4.13.1"
+  }
+}
