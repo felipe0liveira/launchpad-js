@@ -9,7 +9,7 @@
     }
 
     pads.forEach((pad, index) => {
-        pad.addEventListener('touchstart', (e) => {
+        pad.addEventListener('click', (e) => {
             playSong(index);
         });
     });
