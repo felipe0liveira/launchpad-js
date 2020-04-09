@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "light-server -o -q -s ./src -w \"./src/**/*.* # npm run scss\" # clear",
+    "start": "light-server -o -s ./src -w \"./src/**/*.* # npm run scss\" # clear",
     "scss": "rm -f ./src/assets/styles/main.css && node-sass ./src/assets/styles/main.scss -o ./src/assets/styles"
   },
   "devDependencies": {
